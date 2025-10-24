@@ -1,105 +1,45 @@
 body {
-      color: white;
-        background: black;
-          margin: 0px;
-            font-family: "Chakra Petch", sans-serif;
-            }
-
-            header {
-              border-bottom: solid 2px rgb(42, 122, 228);
-                padding: 20px;
-                  font-size: 32px;
-                    color: rgb(42, 122, 228);
-                    }
-
-                    section {
-                      background: rgb(184, 156, 213);
-                        padding-bottom: 80px;
-                          padding-top: 80px;
-                            display: flex;
-                              justify-content: center;
-                              }
-
-                              .chamada-texto {
-                                margin-right: 5%;
-                                }
-
-                                h1 {
-                                  font-size: 40px;
-                                  }
-
-                                  p {
-                                    font-size: 20px;
-                                    }
+    color: white;
+    background: black;
+    margin: 0;
+    font-family: "Chakra Petch", sans-serif;
 }
-  <!-- código omitido -->
 
-  <section>
-    <h2>Filmes e séries</h2>
-      <div>
-          <a href="https://www.youtube.com/watch?v=cs15QqG6Gjc">
-                <img src="https://img.youtube.com/vi/cs15QqG6Gjc/maxresdefault.jpg" />
-                    </a>
-                        <a href="https://www.youtube.com/watch?v=nCmIwcycUJ8">
-                              <img src="https://img.youtube.com/vi/nCmIwcycUJ8/maxresdefault.jpg" />
-                                  </a>
-                                      <a href="https://www.youtube.com/watch?v=FvRmEapoHRc">
-                                            <img src="https://img.youtube.com/vi/FvRmEapoHRc/maxresdefault.jpg" />
-                                                </a>
-                                                    <a href="https://www.youtube.com/watch?v=Ipkw_hWW-Hw">
-                                                          <img src="https://img.youtube.com/vi/Ipkw_hWW-Hw/maxresdefault.jpg" />
-                                                              </a>
-                                                                  <a href="https://www.youtube.com/watch?v=d4DzMNGoyis">
-                                                                        <img src="https://img.youtube.com/vi/d4DzMNGoyis/maxresdefault.jpg" />
-                                                                            </a>
-                                                                              </div>
-                                                                              </section>
+header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
+}
 
-                                                                              <!-- código omitido -->
-                                                                              <!-- código omitido -->
+h1 {
+    font-size: 40px;
+}
 
-                                                                              <section>
-                                                                                <h2>Filmes e séries</h2>
-                                                                                  <div class="categoria-videos">
-                                                                                      <!-- código omitido -->
-                                                                                        </div>
-                                                                                        </section>
-                                                                                        .categoria-videos {
-                                                                                              display: flex;
-                                                                                              overflow-x: auto;
-                                                                                              gap: 10px;
-                                                                                              }
-                                                                                        
-                                                                                              section {
-                                                                                                  background: rgb(184, 156, 213);
-                                                                                                    padding-bottom: 80px;
-                                                                                                      padding-top: 80px;
-                                                                                                        display: flex;
-                                                                                                          justify-content: center;
-                                                                                                          }
+p {
+    font-size: 20px;
+}
 
-                                                                                                          /* código omitido */
+section {
+    background: rgb(184, 156, 213);
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+}
 
-                                                                                                          section {
-                                                                                                            padding-left: 20px;
-                                                                                                              padding-right: 20px;
-                                                                                                              }
-                                                                                                              <!-- código omitido -->
+.chamada-texto {
+    margin-right: 5%;
+}
 
-                                                                                                              <header>ALURAFLIX</header>
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
 
-                                                                                                              <section class="chamada">
-                                                                                                                <div class="chamada-texto">
-                                                                                                                    <!-- código omitido -->
-                                                                                                                      </div>
-                                                                                                                      </section>
-                                                                                                                      .chamada {
-                                                                                                                          background: rgb(184, 156, 213);
-                                                                                                                            padding-bottom: 80px;
-                                                                                                                              padding-top: 80px;
-                                                                                                                                display: flex;
-                                                                                                                                  justify-content: center;
-                                                                                                                                  }
-                                                                                                                      
-                                                                                              
-                                                                                
+.chamada {
+    background: rgb(184, 156, 213);
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+}
